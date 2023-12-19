@@ -1,0 +1,106 @@
+.signup_right_img{
+    width: 90%;
+    height: auto;
+    border-radius: 15px;
+}
+.signup_entire_container{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    top: 0%;
+    left: 0%;
+}
+.signup_right_container{
+    width: 65vw;
+    height: 100vh;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signup_left_container{
+    width: 35vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.signup_left_container_top{
+    width: 22vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}.signup_logo h2{
+    font-size: 16px;
+    margin: 0px 5px;
+}
+.signup_design{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.signup_design1{
+    height: 4px;
+    width: 30px;
+    border-radius: 3px;
+    background-color: black;
+    margin-bottom: 5px;
+}
+.signup_design2{
+    border-radius: 2px;
+    height: 4px;
+    width: 15px;
+    background-color: black;
+}
+.signup_form label p{
+    margin: 0px;
+}
+.signup_form label input[type="text"],
+.signup_form label input[type="password"],
+.signup_form label input[type="email"]{
+    width: 20vw;
+    padding: 15px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+    font-size: 15px;
+}
+.signup_form label input[type="checkbox"]{
+    transform: scale(2);
+    margin: 15px 15px 15px 10px;
+    accent-color: rgb(172, 134, 29);
+}
+.signup_form h2{
+    color:rgb(0, 0, 0) ;
+    width: 50%;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    font-weight: 400;
+}
+.signup_form button{
+    width: 10vw;
+    padding: 15px;
+    border: none;
+    background-color: rgb(249, 150, 69);
+    margin: 15px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}
+.signup_form button:hover{
+    background-color: rgb(251, 145, 59);
+}
+.signup_form a{
+    margin: 0px 40px;
+    text-decoration: none;
+    color: grey;
+}
+.signup_form a:hover{
+    color: black;
+}

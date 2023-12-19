@@ -1,0 +1,49 @@
+.chats_blocks{
+    width: 94%;
+    display: flex;
+    margin:0px 1%;
+    border-bottom: 1px solid rgba(225, 225, 225, 0.869);
+    align-items: center;
+    padding: 10px 10px;
+    position: relative;
+}
+.chats_blocks.highlight_chat_block{
+    background-color: rgba(2, 136, 156, 0.077);
+}
+.chats_block_img{
+    width: 60px;
+}
+.chats_block_img img{
+    border-radius: 50px;
+    width: 100%;
+    height: auto;
+}
+.chats_block_mid p{
+ margin: 5px;
+}
+.chats_block_mid p:first-child{
+    font-weight: bold;
+    color: rgb(26, 107, 141);
+}
+.chats_block_mid p:last-child{
+    white-space: nowrap;       /* Prevent the text from wrapping to the next line */
+    overflow: hidden;          /* Hide the content that overflows the container */
+    text-overflow: ellipsis; 
+    font-size: 14px;
+}
+.chats_block_last{
+    position: absolute;
+    right: 10px;
+    display: flex;
+    align-items: center;
+}
+.chats_block_last p{
+    font-size: 14px;
+    margin-right:10px ;
+}
+.chats_block_person_status{
+    width: 12px;
+    height: 12px;
+    background-color: rgb(20, 163, 20);
+    border-radius: 12px;
+}
